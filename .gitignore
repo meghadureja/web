@@ -1,1 +1,12 @@
 # Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/compiler.xml
+.idea/copyright/
+.idea/misc.xml
+.idea/modules.xml
+.idea/web.iml
+.idea/workspace.xml
+target/
+.idea/artifacts/
+.idea/encodings.xml
+.idea/libraries/
