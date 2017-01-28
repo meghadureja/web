@@ -10,3 +10,4 @@ target/
 .idea/artifacts/
 .idea/encodings.xml
 .idea/libraries/
+node_modules/
