@@ -19,7 +19,7 @@ public class WebMainApp {
         SpringApplication.run(WebMainApp.class, args);
     }
 
-    @Bean
+    /*@Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
 
@@ -32,5 +32,5 @@ public class WebMainApp {
             }
 
         };
-    }
+    }*/
 }
