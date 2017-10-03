@@ -19,12 +19,19 @@ export class AppComponent {
   }
 
   getTodoItems() {
-    return this.model.items.filter(item => !item.done);
+    /*return this.model.items.filter(item => !item.done);*/
+    return this.model.items;
   }
 
   addItem(newItem){
     if (newItem != "") {
       this.model.items.push(new TodoItem(newItem, false));
+    }
+  }
+
+  deleteItem(newItem){
+    if (newItem != "") {
+      this.model.items = this.model.items.filter(item => item.action !== newItem);
     }
   }
 }

@@ -8,7 +8,7 @@ export class AppModel {
       // new TodoItem("Buy Flowers", false),
       // new TodoItem("Get Shoes", false),
       // new TodoItem("Collect Tickets", false),
-      new TodoItem("Call Joe", true)
+      new TodoItem("Call Mom", true)
     ];
   }
 }

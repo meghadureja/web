@@ -11,7 +11,7 @@
 <!--display data-->
 <table class="table table-striped table-bordered">
   <thead>
-  <tr><th></th><th>Description</th><th>Done</th></tr>
+  <tr><th></th><th>Description</th><th>Done</th><th>Completed</th><th>Action</th></tr>
   </thead>
   <tbody>
   <tr *ngFor="let item of getTodoItems(); let i = index">
@@ -22,6 +22,9 @@
       <span *ngSwitchCase="true">Yes</span>
       <span *ngSwitchDefault>No</span>
     </td>
+    <td><button class="btn btn-primary m-t-1" (click)="deleteItem(item.action)">
+      Delete
+    </button></td>
   </tr>
   </tbody>
 </table>
